@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    min-height: 400px;
+    max-height: 400px; /* Limitar el ancho de la imagen al tamaño del contenedor */
+    width:  auto;
+    display: block;
+    margin: auto;
+    
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(253, 253, 253);
+    padding: 170px;
+    text-align: center;
+    text-shadow:
+    2px 2px 2px #000,
+    -2px 2px 2px #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+.carousel-control {
+    background: none; /* Fondo transparente para los controles del carrusel */
+    background-color: rgb(255, 255, 255);
+}
+
+.carousel-control.left, .carousel-control.right 
+{
+    background-image: none; /* Eliminar la flecha del control */
+    margin: 100px 0 100px 0;
+}
+
+body{
+    background-color: #f1f0f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-image: url("./malla.png");
+    background-size: 60% ;
+}
+ 
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: #f3f3f3;
+    padding: 10px 80px;
+    align-items: center;
+    background-color: #cbcbe2;
+}
+
+.header-left{
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #238da2;
+    max-width: 300px;
+    text-shadow:
+    1px 1px 2px rgb(255, 255, 255),
+    0 0 1em rgb(229, 229, 233),
+    0 0 0.2em rgb(135, 135, 158);
+}
+
+.header-right {
+    text-decoration: none;
+    color: #86631a;
+}
+
+ul{ 
+    display: flex;
+    list-style: none;
+    gap: 46px;
+    font-size: 24px;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+ ul a{
+    text-decoration: none;
+    color: #86631a;
+ }
+
+.imglarga{
+    width: 600px;
+    height: auto;
+}
+
+
+.fraseEnganche{
+    padding: 20px;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
